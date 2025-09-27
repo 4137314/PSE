@@ -1,0 +1,218 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "88716a9d-889c-4024-af1f-2631f7aa2bb9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 59.69 30.48)
+		(size 26.67 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "283352e8-c3fa-42e1-8bb6-7c5e0c12a594")
+		(property "Sheetname" "temperature_sensor"
+			(at 59.69 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temperature_sensor.kicad_sch"
+			(at 59.69 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSE"
+				(path "/13844229-b559-4868-a710-53f590233cb2/bb0efcd1-04c2-4746-a524-ab8f9ddb53e9"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 31.75)
+		(size 16.51 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "367a5412-b729-4fe6-bd86-7f5ea27e21d3")
+		(property "Sheetname" "accelerometer"
+			(at 25.4 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "accelerometer.kicad_sch"
+			(at 25.4 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSE"
+				(path "/13844229-b559-4868-a710-53f590233cb2/bb0efcd1-04c2-4746-a524-ab8f9ddb53e9"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 30.48)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ed1cc8a-67f4-422b-98a7-cb41381b26c8")
+		(property "Sheetname" "gps"
+			(at 96.52 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 96.52 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSE"
+				(path "/13844229-b559-4868-a710-53f590233cb2/bb0efcd1-04c2-4746-a524-ab8f9ddb53e9"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 39.37)
+		(size 21.59 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7d886cd-9085-4b15-8d5f-2ad0e78f5d41")
+		(property "Sheetname" "esp"
+			(at 177.8 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp.kicad_sch"
+			(at 177.8 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSE"
+				(path "/13844229-b559-4868-a710-53f590233cb2/bb0efcd1-04c2-4746-a524-ab8f9ddb53e9"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 29.21)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb0e3941-b816-4275-8fb2-164e9b13b18c")
+		(property "Sheetname" "expansions"
+			(at 130.81 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "expansions.kicad_sch"
+			(at 130.81 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSE"
+				(path "/13844229-b559-4868-a710-53f590233cb2/bb0efcd1-04c2-4746-a524-ab8f9ddb53e9"
+					(page "19")
+				)
+			)
+		)
+	)
+)

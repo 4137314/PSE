@@ -1,0 +1,176 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "793d3b8d-273b-4d2d-9b9a-6f577ae414e5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 27.94 31.75)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "223431c6-cfd8-4fc3-b6f7-3eaf95975cfd")
+		(property "Sheetname" "mini_usb"
+			(at 27.94 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mini_usb.kicad_sch"
+			(at 27.94 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSE"
+				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 33.02)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5caab3ad-a795-4284-8cea-618258e8e471")
+		(property "Sheetname" "lvr"
+			(at 71.12 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lvr.kicad_sch"
+			(at 71.12 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSE"
+				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 35.56)
+		(size 19.05 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ce177ed-6650-4628-99b0-bf88d1bff3a8")
+		(property "Sheetname" "bcv"
+			(at 113.03 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bcv.kicad_sch"
+			(at 113.03 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSE"
+				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 62.23)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eff5d350-328a-42cd-974e-fa3afc65ad5d")
+		(property "Sheetname" "bc"
+			(at 33.02 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bc.kicad_sch"
+			(at 33.02 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSE"
+				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b"
+					(page "11")
+				)
+			)
+		)
+	)
+)
