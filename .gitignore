@@ -1,0 +1,72 @@
+# ───────────────
+# KiCad project files to keep
+# ───────────────
+# (NON ignorare questi: sono i veri sorgenti del progetto)
+#!*.kicad_pro
+#!*.kicad_sch
+#!*.kicad_pcb
+#!*.kicad_sym
+#!*.kicad_mod
+#!*.pretty/
+
+# ───────────────
+# Backup e cache
+# ───────────────
+*.bak
+*.bck
+*.tmp
+*.swp
+*.swo
+*.~*
+*.lck
+*.dcm
+*.cache
+*-backups/
+fp-info-cache
+
+# ───────────────
+# File generati da KiCad
+# ───────────────
+*.net
+*.xml
+*.json
+*.csv
+*.rpt
+
+# ───────────────
+# Output di produzione (Gerber, drill, fab, ecc.)
+# ───────────────
+*.gbr
+*.gtp
+*.gbp
+*.gto
+*.gts
+*.gbs
+*.gtl
+*.gbl
+*.drl
+*.map
+*.pos
+*.zip
+
+# ───────────────
+# 3D models & STEP exports
+# ───────────────
+*.wrl
+*.step
+*.stp
+
+# ───────────────
+# Output simulazioni o altri tool
+# ───────────────
+*.spice
+*.cir
+sim/
+
+# ───────────────
+# Cartelle di build / output
+# ───────────────
+build/
+out/
+output/
+
