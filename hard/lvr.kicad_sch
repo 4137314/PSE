@@ -684,6 +684,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AP2127N-1.0"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP2127N-1.0"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.0V fixed positive output, SOT-23 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2127N-1.0_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2127N-1.0_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1174,6 +1315,12 @@
 		(uuid "628714a4-1e0d-48f5-91bc-303a34d96dbf")
 	)
 	(junction
+		(at 128.27 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68fbfe1e-3f91-47a8-93d3-d4398a028cb6")
+	)
+	(junction
 		(at 163.83 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1186,16 +1333,10 @@
 		(uuid "8d469ba2-7675-43f4-88d7-0ddf5592baf0")
 	)
 	(junction
-		(at 121.92 85.09)
+		(at 116.84 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9b92226-0a8b-49f1-bc61-0fbdc11b54ae")
-	)
-	(junction
-		(at 105.41 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbe1b47b-4948-4283-9a89-69f653cdb353")
+		(uuid "8fa03c1f-ba20-4065-8f19-3a22b1b1e0e9")
 	)
 	(wire
 		(pts
@@ -1219,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 85.09) (xy 105.41 85.09)
+			(xy 87.63 85.09) (xy 99.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1269,6 +1410,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25668063-562a-4beb-beb5-bebc1dd08d9f")
+	)
+	(wire
+		(pts
 			(xy 177.8 92.71) (xy 182.88 92.71)
 		)
 		(stroke
@@ -1279,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 85.09) (xy 121.92 85.09)
+			(xy 130.81 85.09) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +1500,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 92.71) (xy 105.41 96.52)
+			(xy 116.84 85.09) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2273a60-7328-4a98-9be5-28bd186a6e9d")
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1369,16 +1530,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 85.09) (xy 121.92 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d19bccaa-a6ab-479e-a3e4-0374b031fa35")
-	)
-	(wire
-		(pts
 			(xy 143.51 102.87) (xy 151.13 102.87)
 		)
 		(stroke
@@ -1389,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 121.92 96.52)
+			(xy 128.27 92.71) (xy 128.27 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1551,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 96.52 85.09 0)
+		(at 91.44 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1409,7 +1560,7 @@
 		)
 		(uuid "2af0de53-087a-40c1-bb1c-b3246aca7b47")
 		(property "Netclass" "TP502"
-			(at 97.282 81.026 0)
+			(at 92.202 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1569,7 @@
 			)
 		)
 		(property "Component Class" "5V"
-			(at 98.044 83.058 0)
+			(at 92.964 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1825,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 105.41 88.9 0)
+		(at 116.84 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1682,7 +1833,7 @@
 		(dnp no)
 		(uuid "183ffc8b-a07e-4053-9562-b589b0f22a96")
 		(property "Reference" "C512"
-			(at 107.95 89.408 0)
+			(at 119.38 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +1842,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 107.95 91.948 0)
+			(at 119.38 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +1851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.3752 92.71 0)
+			(at 117.8052 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +1860,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 88.9 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1869,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 105.41 88.9 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1960,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 96.52 0)
+		(at 128.27 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1818,7 +1969,7 @@
 		(fields_autoplaced yes)
 		(uuid "55814112-f778-4cc1-a5cc-be82d78733be")
 		(property "Reference" "#PWR011"
-			(at 121.92 102.87 0)
+			(at 128.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1978,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 101.6 0)
+			(at 128.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +2004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 96.52 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,6 +2151,78 @@
 			(project ""
 				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b/5caab3ad-a795-4284-8cea-618258e8e471"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2127N-1.0")
+		(at 106.68 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7604c655-6d37-4ac6-8549-5373fecda636")
+		(property "Reference" "U501"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SC662K-3-3V"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 106.68 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.0V fixed positive output, SOT-23 package"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0d8b8cb4-0b61-4553-9af9-33bd3a8cba87")
+		)
+		(pin "2"
+			(uuid "65429ddb-5742-46d6-8384-88ba4d47ce03")
+		)
+		(pin "1"
+			(uuid "45fab35a-9bcd-462f-b766-5f5c7efe49c3")
+		)
+		(instances
+			(project ""
+				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b/5caab3ad-a795-4284-8cea-618258e8e471"
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -2206,7 +2429,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 96.52 0)
+		(at 116.84 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2215,7 +2438,7 @@
 		(fields_autoplaced yes)
 		(uuid "9febf323-e777-4b41-aef8-3927507e1a3e")
 		(property "Reference" "#PWR09"
-			(at 105.41 102.87 0)
+			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2447,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 101.6 0)
+			(at 116.84 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 96.52 0)
+			(at 116.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 96.52 0)
+			(at 116.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 96.52 0)
+			(at 116.84 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2561,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 88.9 0)
+		(at 128.27 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2346,7 +2569,7 @@
 		(dnp no)
 		(uuid "b98a20f5-b15d-479b-a6d9-bb11c2474034")
 		(property "Reference" "C505"
-			(at 125.222 88.646 0)
+			(at 131.572 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +2578,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 125.476 90.678 0)
+			(at 131.826 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.8852 92.71 0)
+			(at 129.2352 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 88.9 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2605,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 88.9 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,47 @@
+PSE - Power Supply Emulator
+===========================
+
+Version: 1.0
+Author: 4137314
+License: GNU General Public License v3.0
+
+Purpose
+-------
+PSE is a KiCad project designed to emulate power supply circuits
+for testing and prototyping purposes. It includes both schematic
+and PCB layout files suitable for educational and development use.
+
+Installation
+------------
+To obtain the project, clone the repository using Git:
+
+    git clone https://github.com/4137314/PSE.git
+    cd PSE
+
+Open the file "PSE.kicad_pro" in KiCad to access the full project.
+
+Usage
+-----
+- Inspect the schematic via "PSE.kicad_sch".
+- Review the PCB layout in "PSE.kicad_pcb".
+- Generate manufacturing files (Gerber, BOM, Drill) if needed.
+
+Ensure all libraries and footprints referenced by the project are
+available in your KiCad environment.
+
+License
+-------
+This project is licensed under the GNU General Public License v3.0.
+Refer to the LICENSE file in this repository for the full license text.
+
+Reporting Bugs / Contributing
+-----------------------------
+Report bugs or suggest improvements via GitHub Issues. Contributions
+are welcome under the same GPLv3 license.
+
+Contact
+-------
+Mattia Fait
+https://github.com/4137314/PSE
+
+=======================================================================
