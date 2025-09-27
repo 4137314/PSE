@@ -22,6 +22,7 @@
 *.dcm
 *.cache
 *-backups/
+*PSE-backups/
 fp-info-cache
 
 # ───────────────
