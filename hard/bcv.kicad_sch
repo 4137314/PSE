@@ -144,9 +144,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener_Dual_CommonAnode_KAK_Split"
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -160,7 +163,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Zener_Dual_CommonAnode_KAK_Split"
+			(property "Value" "D_Zener"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -169,7 +172,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -2.54 -2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -178,15 +181,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Zener diode, common anode on pin 1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -195,12 +189,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Description" "Zener diode"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "diode"
@@ -212,24 +207,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Zener_Dual_CommonAnode_KAK_Split_0_0"
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "D_Zener_Dual_CommonAnode_KAK_Split_0_1"
+			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -251,28 +241,22 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "D_Zener_Dual_CommonAnode_KAK_Split_1_1"
+			(symbol "D_Zener_1_1"
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -289,19 +273,17 @@
 						)
 					)
 				)
-			)
-			(symbol "D_Zener_Dual_CommonAnode_KAK_Split_2_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -538,6 +520,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VIN"
+		(exclude_from_sim no)
+		(at 61.976 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3c5f34b-a3ae-4421-b237-85d17c145187")
+	)
 	(junction
 		(at 59.69 74.93)
 		(diameter 0)
@@ -575,6 +567,16 @@
 			(type default)
 		)
 		(uuid "4067dd4a-0921-41ef-9f85-166c10d82b8a")
+	)
+	(wire
+		(pts
+			(xy 59.69 63.5) (xy 59.69 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7f2772-2db2-4940-824e-292189bff0a9")
 	)
 	(wire
 		(pts
@@ -731,6 +733,76 @@
 			(project ""
 				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b/7ce177ed-6650-4628-99b0-bf88d1bff3a8"
 					(reference "R510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 102.87 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7484efc0-a77a-40df-be1e-a5369dd15b34")
+		(property "Reference" "D17"
+			(at 105.41 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PDZ3.3B.115"
+			(at 105.41 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdd2e3b7-3c2e-4380-9855-3732046558fa")
+		)
+		(pin "1"
+			(uuid "6272e1bf-5e17-439b-9cc1-d03c8ad78056")
+		)
+		(instances
+			(project ""
+				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b/7ce177ed-6650-4628-99b0-bf88d1bff3a8"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -933,79 +1005,6 @@
 			(project ""
 				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b/7ce177ed-6650-4628-99b0-bf88d1bff3a8"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Dual_CommonAnode_KAK_Split")
-		(at 102.87 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3af842d-6067-48fe-bb93-8629c431c435")
-		(property "Reference" "D507"
-			(at 105.41 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PDZ3.3B.115"
-			(at 105.41 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Zener diode, common anode on pin 1"
-			(at 102.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be473f23-ad09-4ed4-9ce3-3c9ea240a16c")
-		)
-		(pin "3"
-			(uuid "a414fe22-827a-4324-a04d-3588eef7ef6f")
-		)
-		(pin "2"
-			(uuid "b6683b74-2eaf-4d1f-990f-3b619a890dda")
-		)
-		(instances
-			(project ""
-				(path "/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b/7ce177ed-6650-4628-99b0-bf88d1bff3a8"
-					(reference "D507")
 					(unit 1)
 				)
 			)

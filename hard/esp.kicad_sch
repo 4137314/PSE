@@ -5,4 +5,37 @@
 	(uuid "5702d312-aadb-400e-91af-6513f852ab92")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "ESP_RX"
+		(shape input)
+		(at 88.9 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fd5c503-a3d8-4c83-ad35-21aaec23abec")
+	)
+	(hierarchical_label "ESP_TX"
+		(shape input)
+		(at 88.9 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d4c6aa0-72c4-4048-bbd6-75e5e72cee7d")
+	)
+	(hierarchical_label "ESP_EN"
+		(shape input)
+		(at 88.9 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "806b3d91-357c-4431-97cd-0292e0b4edcc")
+	)
 )

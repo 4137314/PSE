@@ -881,20 +881,20 @@
 		)
 	)
 	(junction
-		(at 149.86 63.5)
+		(at 142.24 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "806c8875-0b37-4aa2-bf11-572a1adabf67")
 	)
 	(junction
-		(at 157.48 80.01)
+		(at 149.86 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89ab5264-f798-4e36-a1e6-6533fe604023")
 	)
 	(wire
 		(pts
-			(xy 149.86 80.01) (xy 149.86 74.93)
+			(xy 142.24 99.06) (xy 142.24 93.98)
 		)
 		(stroke
 			(width 0)
@@ -904,7 +904,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 63.5) (xy 149.86 67.31)
+			(xy 142.24 82.55) (xy 142.24 86.36)
 		)
 		(stroke
 			(width 0)
@@ -914,7 +914,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 74.93) (xy 162.56 80.01)
+			(xy 154.94 93.98) (xy 154.94 99.06)
 		)
 		(stroke
 			(width 0)
@@ -924,7 +924,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 149.86 63.5)
+			(xy 154.94 82.55) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
@@ -934,7 +934,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 149.86 63.5)
+			(xy 142.24 80.01) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +944,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 80.01) (xy 149.86 80.01)
+			(xy 149.86 99.06) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -954,7 +954,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 69.85) (xy 162.56 63.5)
+			(xy 154.94 88.9) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
@@ -964,7 +964,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 80.01) (xy 157.48 80.01)
+			(xy 154.94 99.06) (xy 149.86 99.06)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 85.09) (xy 148.59 85.09)
+			(xy 138.43 104.14) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
@@ -984,7 +984,7 @@
 	)
 	(hierarchical_label "BUZZER"
 		(shape input)
-		(at 146.05 85.09 180)
+		(at 138.43 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -995,7 +995,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 149.86 71.12 270)
+		(at 142.24 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1004,7 +1004,7 @@
 		(fields_autoplaced yes)
 		(uuid "549a5e7b-a200-4e0b-9d33-438d06459893")
 		(property "Reference" "D7"
-			(at 152.4 69.8499 90)
+			(at 144.78 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1013,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 152.4 72.3899 90)
+			(at 144.78 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 71.12 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1031,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 71.12 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1040,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 149.86 71.12 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,7 +1049,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 149.86 71.12 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +1058,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 71.12 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,16 +1083,15 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 165.1 72.39 0)
+		(at 157.48 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "634aff76-831b-4870-82a8-3fa48b353c33")
 		(property "Reference" "BZ1"
-			(at 168.91 71.1199 0)
+			(at 161.29 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1100,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 168.91 73.6599 0)
+			(at 161.29 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 164.465 69.85 90)
+			(at 156.845 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 164.465 69.85 90)
+			(at 156.845 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1127,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 165.1 72.39 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,7 +1152,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:DTD123Y")
-		(at 154.94 85.09 0)
+		(at 147.32 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1162,7 +1161,7 @@
 		(fields_autoplaced yes)
 		(uuid "7945430b-ce3b-43fc-be11-fb9fd25df11c")
 		(property "Reference" "Q1"
-			(at 160.02 83.8199 0)
+			(at 152.4 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,7 +1170,7 @@
 			)
 		)
 		(property "Value" "DTD123Y"
-			(at 160.02 86.3599 0)
+			(at 152.4 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 85.09 0)
+			(at 147.32 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,7 +1189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 85.09 0)
+			(at 147.32 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1199,7 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 2k2/10k, SOT-23"
-			(at 154.94 85.09 0)
+			(at 147.32 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1227,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 149.86 60.96 0)
+		(at 142.24 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1236,7 +1235,7 @@
 		(dnp no)
 		(uuid "a5a9f32f-faea-423b-85dd-4238b72628a7")
 		(property "Reference" "#PWR048"
-			(at 149.86 64.77 0)
+			(at 142.24 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1244,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 149.86 55.88 0)
+			(at 142.24 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 60.96 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 60.96 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1270,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 149.86 60.96 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,7 +1292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 90.17 0)
+		(at 149.86 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1302,7 +1301,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3e14b83-cc31-4c5b-9708-6e27830ed985")
 		(property "Reference" "#PWR049"
-			(at 157.48 96.52 0)
+			(at 149.86 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1310,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 95.25 0)
+			(at 149.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 90.17 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 90.17 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 90.17 0)
+			(at 149.86 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
