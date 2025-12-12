@@ -9,46 +9,6 @@
 		(company "Universita' di Trento")
 	)
 	(lib_symbols)
-	(text "I2C0_SCL"
-		(exclude_from_sim no)
-		(at 221.488 80.264 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "43b4874f-8f92-4134-8417-50db0c685035")
-	)
-	(text "I2C0_SDA"
-		(exclude_from_sim no)
-		(at 221.488 67.564 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5bbb64f7-5c47-424d-b26e-8dbec5746c77")
-	)
-	(text "I2C0_SDA"
-		(exclude_from_sim no)
-		(at 221.488 77.724 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "623d9753-ef77-4bb8-abcd-4ba92dc06b29")
-	)
-	(text "I2C0_SCL"
-		(exclude_from_sim no)
-		(at 221.488 70.104 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d5f94618-16ac-4c8c-be89-a7b863fc30b1")
-	)
 	(wire
 		(pts
 			(xy 162.56 91.44) (xy 182.88 91.44)
@@ -418,6 +378,46 @@
 			(type default)
 		)
 		(uuid "fe798d3a-9629-49e4-a62e-5f31375a7c9a")
+	)
+	(label "I2C0_SCL"
+		(at 226.06 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09a69af2-9968-4a65-9441-d88d781698ab")
+	)
+	(label "I2C0_SDA"
+		(at 226.06 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8998f10f-de3b-48af-8e5b-9dd820c81691")
+	)
+	(label "I2C0_SCL"
+		(at 226.06 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd6b919b-718d-4642-b287-0156f844457d")
+	)
+	(label "I2C0_SDA"
+		(at 226.06 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "caaec5c8-5e84-4d09-b9e9-908b5f32a65d")
 	)
 	(sheet
 		(at 86.36 55.245)

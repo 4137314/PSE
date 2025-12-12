@@ -506,7 +506,12 @@
         "TP501"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/power/VBUS"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
