@@ -4723,8 +4723,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -4755,8 +4754,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -4777,8 +4775,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -4819,8 +4816,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -4958,6 +4954,7 @@
 		(length 2.54)
 		(shape round)
 		(at 29.21 25.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4966,7 +4963,7 @@
 		)
 		(uuid "7770c5f7-bc9e-41ba-8038-6de748a357c9")
 		(property "Netclass" "TP1"
-			(at 26.924 18.542 0)
+			(at 29.9085 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4972,7 @@
 			)
 		)
 		(property "Component Class" "VBUS"
-			(at 26.416 21.082 0)
+			(at 29.9085 24.3205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,6 +5698,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"

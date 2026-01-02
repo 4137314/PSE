@@ -522,6 +522,14 @@
       {
         "netclass": "Default",
         "pattern": "+3V3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "TP1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "3V3"
       }
     ]
   },
@@ -629,7 +637,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "TP",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
