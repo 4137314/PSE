@@ -399,6 +399,16 @@
 		)
 		(uuid "8998f10f-de3b-48af-8e5b-9dd820c81691")
 	)
+	(label "I2C0_SDA"
+		(at 175.26 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b219009c-7c14-4467-bc5c-b147c2d08ca7")
+	)
 	(label "I2C0_SCL"
 		(at 226.06 71.12 180)
 		(effects
@@ -408,6 +418,16 @@
 			(justify right bottom)
 		)
 		(uuid "bd6b919b-718d-4642-b287-0156f844457d")
+	)
+	(label "I2C0_SCL"
+		(at 175.26 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2c72fdd-8888-48b5-80c4-f185da9ce2b5")
 	)
 	(label "I2C0_SDA"
 		(at 226.06 78.74 180)

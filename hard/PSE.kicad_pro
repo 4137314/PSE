@@ -156,7 +156,7 @@
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
-          "td_length_ratio": 0.5,
+          "td_length_ratio": 0.4,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
@@ -239,7 +239,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|342900|749300|996b37a3-1034-4732-b6cf-5dfe986b45d2|9a46c68f-8c7f-4f77-9400-3661e222b180|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b",
+        ""
+      ],
+      [
+        "power_pin_not_driven|584200|723900|2b1e617b-53ab-4676-b899-4b68d3504a4a|00000000-0000-0000-0000-000000000000|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -471,7 +480,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -483,9 +492,65 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.2,
+        "via_drill": 0.6
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.75,
+        "via_diameter": 1.2,
+        "via_drill": 0.6
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "BUCK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.85,
+        "via_diameter": 1.2,
+        "via_drill": 0.6
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB_POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 1.2,
+        "via_drill": 0.6
       }
     ],
     "meta": {
@@ -497,10 +562,10 @@
         "3V3"
       ],
       "+5V": [
-        "TP2"
+        "5V"
       ],
       "/power/VBUS": [
-        "TP1"
+        "VBUS"
       ],
       "/power/mini_usb/VBUS": [
         "TP501"
@@ -509,27 +574,15 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "/power/VBUS"
+        "pattern": "VCC*"
       },
       {
         "netclass": "Default",
-        "pattern": "+5V"
+        "pattern": "GND*"
       },
       {
         "netclass": "Default",
-        "pattern": "TP2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "TP1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "3V3"
+        "pattern": "TP*"
       }
     ]
   },

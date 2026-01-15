@@ -5071,7 +5071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "+3V3"
 			(at 137.16 16.51 0)
 			(effects
 				(font
