@@ -571,20 +571,7 @@
         "TP501"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "VCC*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "TP*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
