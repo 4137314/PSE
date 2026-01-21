@@ -780,165 +780,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Display_Graphic:EA_DOGS104B-A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U4"
-				(at -1.27 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "oled_0.96\"_128x64px"
-				(at -10.16 11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Display:EA_DOGS104X-A"
-				(at -38.354 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf"
-				(at -51.308 25.146 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI"
-				(at -61.468 32.766 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "display LCD graphic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*EA*DOGS104*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "EA_DOGS104B-A_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "EA_DOGS104B-A_1_1"
-				(pin input line
-					(at -10.16 6.35 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_MEC_5G"
 			(pin_numbers
 				(hide yes)
@@ -1447,6 +1288,165 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "libs:EA_DOGS104B-A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U4"
+				(at -1.27 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "oled_0.96\"_128x64px"
+				(at -10.16 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+				(at -38.354 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf"
+				(at -51.308 25.146 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI"
+				(at -61.468 32.766 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "display LCD graphic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*EA*DOGS104*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EA_DOGS104B-A_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "EA_DOGS104B-A_1_1"
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3343,6 +3343,81 @@
 		)
 	)
 	(symbol
+		(lib_id "libs:EA_DOGS104B-A")
+		(at 220.98 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "263b9047-67d4-4c93-90e2-abb477630b40")
+		(property "Reference" "U4"
+			(at 215.138 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "oled_0.96\"_128x64px"
+			(at 212.852 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 182.626 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf"
+			(at 169.672 11.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI"
+			(at 159.512 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "dbd33988-c876-4c8a-b69c-d950e479a3c5")
+		)
+		(pin "1"
+			(uuid "d0bb15e2-a107-406a-8518-9e8a87e21049")
+		)
+		(pin "3"
+			(uuid "c21615b3-d514-4fbc-9c49-a951db60a701")
+		)
+		(pin "2"
+			(uuid "a5e9037d-ad41-461c-9273-66e2502cbcba")
+		)
+		(instances
+			(project ""
+				(path "/13844229-b559-4868-a710-53f590233cb2/84252bff-756a-4e73-bf59-14a8ed329bed"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 45.72 0)
 		(unit 1)
@@ -3809,82 +3884,6 @@
 			(project "PSE"
 				(path "/13844229-b559-4868-a710-53f590233cb2/84252bff-756a-4e73-bf59-14a8ed329bed"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Display_Graphic:EA_DOGS104B-A")
-		(at 220.98 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63ce37da-de65-4d24-b29e-a23b527868a1")
-		(property "Reference" "U4"
-			(at 219.71 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "oled_0.96\"_128x64px"
-			(at 210.82 25.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 182.626 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf"
-			(at 169.672 11.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI"
-			(at 159.512 4.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2edff4be-743c-405c-9264-ba3f80286bbe")
-		)
-		(pin "3"
-			(uuid "d3f4bbff-e276-463f-9d47-e5dda20cb6e2")
-		)
-		(pin "2"
-			(uuid "65b5c9ec-25c8-47e0-b190-a3cfd56c58c6")
-		)
-		(pin "4"
-			(uuid "79405e0b-f71b-4d57-8277-53a6c2a9b454")
-		)
-		(instances
-			(project ""
-				(path "/13844229-b559-4868-a710-53f590233cb2/84252bff-756a-4e73-bf59-14a8ed329bed"
-					(reference "U4")
 					(unit 1)
 				)
 			)

@@ -5,131 +5,6 @@
 	(uuid "1c93feb1-6f3f-4f33-8ed5-b389d4f6867a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "+1V1_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR066"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V1"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V1\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V1_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V1_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -440,7 +315,134 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_MEC_5G"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -448,8 +450,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -457,16 +459,586 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
-				(at 3.175 3.175 0)
+			(property "Value" "SW_MEC_5G"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5G single pole normally-open tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5G_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "libs:AT24CS01-SSHM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 2.1433 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AT24C256"
+				(at 2.1433 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at -44.45 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
+				(at -67.31 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SO8"
+				(at -40.132 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C Serial EEPROM Nonvolatile Memory"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AT24CS01-SSHM_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "WP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "libs:Crystal_GND23"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y1"
+				(at -6.35 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "12MHz"
+				(at -6.604 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -696,136 +1268,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "libs:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MCU_RaspberryPi:RP2040"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U4"
-				(at 2.1433 -44.45 0)
+			(property "Reference" "U1"
+				(at 7.874 -44.704 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -834,7 +1282,7 @@
 				)
 			)
 			(property "Value" "RP2040"
-				(at 2.1433 -46.99 0)
+				(at 7.874 -47.244 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1930,252 +2378,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_EEPROM:AT24CS01-SSHM"
+		(symbol "libs:W25Q128JVE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 2.1433 10.16 0)
+			(property "Reference" "U2"
+				(at 1.27 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "AT24CS01-SSHM"
-				(at 2.1433 7.62 0)
+			(property "Value" "W25Q16JVUSSQ"
+				(at 1.27 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at -44.45 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
-				(at -67.31 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SO8"
-				(at -40.132 -13.208 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "I2C Serial EEPROM Nonvolatile Memory"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AT24CS01-SSHM_1_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "WP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Memory_Flash:W25Q128JVE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U5"
-				(at 0.254 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "W25Q128JVE"
-				(at -3.556 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
@@ -2374,355 +2594,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_MEC_5G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_MEC_5G"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "MEC 5G single pole normally-open tactile switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5G_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3209,107 +3080,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG01"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0.254 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_1_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 147.32 15.24)
@@ -3492,22 +3262,10 @@
 		(uuid "2adb994c-b5f7-45d8-b33d-76ba87e25b38")
 	)
 	(junction
-		(at 69.85 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3047e3f9-b1cc-4f10-aed6-18040560e928")
-	)
-	(junction
 		(at 87.63 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e140050-8292-43d2-a34f-8f9f2858bb7f")
-	)
-	(junction
-		(at 59.69 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f7148d2-d817-48c5-9b9b-1909e60fe07f")
 	)
 	(junction
 		(at 241.3 26.67)
@@ -3568,6 +3326,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dbd72ed-9d8c-429e-a3fb-6cd78611b1d6")
+	)
+	(junction
+		(at 69.85 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f140a4f-9a20-47d5-ac11-cdd89450479a")
 	)
 	(junction
 		(at 97.79 24.13)
@@ -3948,16 +3712,6 @@
 			(type default)
 		)
 		(uuid "35ef415c-da64-462a-adb2-73befd651e04")
-	)
-	(wire
-		(pts
-			(xy 59.69 29.21) (xy 59.69 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367be3c8-dff9-40d5-b76a-1e0fee38974d")
 	)
 	(wire
 		(pts
@@ -4741,16 +4495,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 33.02) (xy 69.85 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be99d568-899e-4668-a528-5ccad600e9c3")
-	)
-	(wire
-		(pts
 			(xy 33.02 129.54) (xy 26.67 129.54)
 		)
 		(stroke
@@ -5121,7 +4865,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 33.02) (xy 59.69 33.02)
+			(xy 53.34 33.02) (xy 69.85 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5789,6 +5533,72 @@
 		(uuid "ed8bbbdc-6b85-4d6e-a470-ece6e0b54799")
 	)
 	(symbol
+		(lib_id "power:+1V1")
+		(at 69.85 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00a64ab1-ca0a-4de7-9890-fa0e0f68c2f3")
+		(property "Reference" "#PWR042"
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 69.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4eb2710-7241-42bb-890b-ae089c55ec52")
+		)
+		(instances
+			(project ""
+				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 76.2 170.18 0)
 		(unit 1)
@@ -6120,79 +5930,6 @@
 			(project ""
 				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND23")
-		(at 251.46 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1873c532-a073-4a7a-9743-87919146a2f9")
-		(property "Reference" "Y1"
-			(at 245.11 20.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12MHz"
-			(at 244.856 23.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
-			(at 251.46 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
-			(at 251.46 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c19e93e2-c9e2-4e7f-bc63-390bd258ef6c")
-		)
-		(pin "3"
-			(uuid "2bfa15ce-5902-45ae-a97a-a5bce6e976f8")
-		)
-		(pin "1"
-			(uuid "72bfb5d0-a60e-43cf-aaf1-cf64c4e867f5")
-		)
-		(pin "4"
-			(uuid "37dcea3b-240d-4df3-8afa-8883e8567d93")
-		)
-		(instances
-			(project ""
-				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -6804,92 +6541,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q128JVE")
-		(at 198.12 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54017f53-6bc2-48ce-9c88-2a7d4f1f3e6d")
-		(property "Reference" "U2"
-			(at 199.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "W25Q128JVE"
-			(at 199.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
-			(at 198.12 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 198.12 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
-			(at 198.12 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5368479c-9c43-428c-bf94-b4774728f67f")
-		)
-		(pin "1"
-			(uuid "5a73245c-f538-4788-b76a-7a79aab69c6d")
-		)
-		(pin "2"
-			(uuid "f5859725-9927-4fd0-aff4-d01fc6efff48")
-		)
-		(pin "3"
-			(uuid "3a386952-fd7c-41d9-8b5a-2ca2f33345a0")
-		)
-		(pin "8"
-			(uuid "ab9b03dc-bb2f-426a-b5bb-bc9e0f40b92b")
-		)
-		(pin "7"
-			(uuid "ac5a683c-9bf4-4388-85e2-aadd004107e3")
-		)
-		(pin "5"
-			(uuid "d6486416-75b6-452a-b569-54c6f52ca0da")
-		)
-		(pin "6"
-			(uuid "64c9f9fa-a385-4a05-baf0-59ba01cb1d4e")
-		)
-		(instances
-			(project ""
-				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 64.77 170.18 0)
 		(unit 1)
@@ -7031,6 +6682,254 @@
 		)
 	)
 	(symbol
+		(lib_id "libs:Crystal_GND23")
+		(at 251.46 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b2e1561-641f-4955-90e9-c66a8da9bda0")
+		(property "Reference" "Y1"
+			(at 259.08 20.2498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12MHz"
+			(at 259.08 22.7898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+			(at 251.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(at 251.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca0347d9-63f9-4b3b-b666-a5d88bcd21e1")
+		)
+		(pin "2"
+			(uuid "dea9d341-bb73-406b-a032-db1a1bf9d427")
+		)
+		(pin "4"
+			(uuid "b3d86ab0-6d6d-44d6-bc2c-c3487b034339")
+		)
+		(pin "3"
+			(uuid "5af4fe93-b914-42d4-9c45-23a4153dc195")
+		)
+		(instances
+			(project ""
+				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "libs:AT24CS01-SSHM")
+		(at 160.02 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c771316-48b6-4b41-bf08-3bd642ee11a4")
+		(property "Reference" "U3"
+			(at 162.1633 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AT24C256"
+			(at 162.1633 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 115.57 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
+			(at 92.71 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SO8"
+			(at 119.888 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "081d4d5f-f3fc-497d-a4bd-9a4208223d85")
+		)
+		(pin "6"
+			(uuid "1319ff1a-efa8-4e42-b716-1916ee6f3c55")
+		)
+		(pin "5"
+			(uuid "cdb3ab45-9688-4b4f-8b65-051efe489722")
+		)
+		(pin "7"
+			(uuid "58a63dc9-906a-47e1-a12a-f4c5289ce577")
+		)
+		(pin "1"
+			(uuid "b84bc0dd-e5db-4c81-8c15-fcdc10d30caa")
+		)
+		(pin "4"
+			(uuid "d5d37b5d-a74d-44f2-9a3f-f41e44f2b033")
+		)
+		(pin "8"
+			(uuid "f824bebe-1d2a-4d99-bdfa-842ac4d8335a")
+		)
+		(pin "3"
+			(uuid "d327cf36-fee8-447f-8025-e8b3665a4846")
+		)
+		(instances
+			(project ""
+				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "libs:W25Q128JVE")
+		(at 198.12 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7303a1da-b41c-4324-a132-18ec4c6b7fcd")
+		(property "Reference" "U2"
+			(at 199.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W25Q16JVUSSQ"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+			(at 198.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 198.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(at 198.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5137c985-0a69-4f95-84c8-b19d7ef5ae8b")
+		)
+		(pin "6"
+			(uuid "13d0c9e9-7e0d-4982-92e0-24d9960f8c08")
+		)
+		(pin "8"
+			(uuid "adefd16f-8a3d-40b0-9b23-fe1b31f59be1")
+		)
+		(pin "4"
+			(uuid "077a465c-925f-4a49-9e59-a3cecf6e5ad6")
+		)
+		(pin "1"
+			(uuid "22efa4d0-e549-43fa-96cf-73b2f3d0291a")
+		)
+		(pin "7"
+			(uuid "f66b4c9f-a805-4235-9984-d806b1aa4af6")
+		)
+		(pin "5"
+			(uuid "af4b2310-9e1a-4204-8b93-8107e004b164")
+		)
+		(pin "3"
+			(uuid "00aad1a6-8f06-4f35-948d-5b198b5ec688")
+		)
+		(instances
+			(project ""
+				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 100.33 43.18 0)
 		(unit 1)
@@ -7090,73 +6989,6 @@
 			(project ""
 				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+1V1_1")
-		(lib_id "power:+1V1")
-		(at 69.85 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8167053b-e3e6-432c-b079-92cdd1ee4538")
-		(property "Reference" "#PWR066"
-			(at 69.85 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 69.85 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 69.85 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2b5d654-708b-4445-83f6-373034fe7df9")
-		)
-		(instances
-			(project ""
-				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7702,71 +7534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 59.69 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b01ff809-ae26-4611-b78c-3116a5b6207b")
-		(property "Reference" "#FLG01"
-			(at 59.69 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 59.944 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4a4c110-adaf-4dc3-a53d-c51c0a17d86f")
-		)
-		(instances
-			(project ""
-				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 267.97 26.67 270)
 		(unit 1)
@@ -7829,94 +7596,6 @@
 			(project ""
 				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_EEPROM:AT24CS01-SSHM")
-		(at 160.02 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6cf636f-4519-4528-a6ac-e606d1dc7e94")
-		(property "Reference" "U3"
-			(at 162.1633 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AT24C256"
-			(at 162.1633 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 115.57 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
-			(at 92.71 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, SO8"
-			(at 119.888 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c7abdb6a-cfbc-4ed6-b33c-e4e07f730d30")
-		)
-		(pin "5"
-			(uuid "9c337dab-c943-46ff-904e-aae374449209")
-		)
-		(pin "4"
-			(uuid "d6a5eadc-02f0-49ed-acf4-344f9ab15902")
-		)
-		(pin "8"
-			(uuid "82c4e2e2-1c87-4dc6-b365-c8dbf2d23a29")
-		)
-		(pin "2"
-			(uuid "96c65fb9-2823-4e69-9728-1a2b5f2cb3af")
-		)
-		(pin "1"
-			(uuid "966a8d52-8810-45b8-937c-65adff45e815")
-		)
-		(pin "6"
-			(uuid "627f9511-dc2a-4d5c-bbf4-c894a8fa1d15")
-		)
-		(pin "7"
-			(uuid "bef770cc-e637-4f1d-abb4-61dd3b710bb9")
-		)
-		(instances
-			(project ""
-				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8121,244 +7800,6 @@
 			(project ""
 				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_RaspberryPi:RP2040")
-		(at 87.63 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c766f844-9bd6-4dbe-92c1-c96e4a8ba3c6")
-		(property "Reference" "U1"
-			(at 95.504 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RP2040"
-			(at 95.504 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
-			(at 19.812 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
-			(at 21.082 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "A microcontroller by Raspberry Pi"
-			(at 5.08 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "18"
-			(uuid "8b1e6744-b379-4812-9e9a-4f63fc5833b8")
-		)
-		(pin "28"
-			(uuid "67ab567f-e13a-4fb3-aeaf-836788f72d87")
-		)
-		(pin "44"
-			(uuid "47903a0d-c3f1-4f18-bd17-8db9072ab533")
-		)
-		(pin "29"
-			(uuid "97cee4af-af3f-47da-93d4-aeeffbe14a04")
-		)
-		(pin "23"
-			(uuid "62c5e97d-fc88-49c1-94d0-b3a7f1434804")
-		)
-		(pin "15"
-			(uuid "e84ec525-9a7a-4153-8ecd-05dbb07e6364")
-		)
-		(pin "52"
-			(uuid "5ea908c2-837b-45c8-a04f-60b8221d4b06")
-		)
-		(pin "36"
-			(uuid "ef88d29d-34ee-4ae0-ab32-640a0f1c0454")
-		)
-		(pin "40"
-			(uuid "25411de3-1678-46c3-857b-7baaa25d847f")
-		)
-		(pin "38"
-			(uuid "15c51231-f0f4-400a-abbe-24c2cc66a096")
-		)
-		(pin "31"
-			(uuid "ba96d412-55ab-46b4-beb9-611e5b0c25b5")
-		)
-		(pin "42"
-			(uuid "73d48377-4202-4830-bf07-2c698e4075ee")
-		)
-		(pin "12"
-			(uuid "fe74ba29-9131-4095-93ee-a563e8bfa86f")
-		)
-		(pin "56"
-			(uuid "611ec8a7-cbc2-4ac4-af63-395313b0194c")
-		)
-		(pin "53"
-			(uuid "8207f35c-7fd8-4d7a-ab77-827814de41ea")
-		)
-		(pin "55"
-			(uuid "5afb30ff-23bd-4105-a6d2-4bb90fcede50")
-		)
-		(pin "50"
-			(uuid "6f2b76d4-cd37-4cda-ac5d-2ba9aaae97b3")
-		)
-		(pin "22"
-			(uuid "a3d32cd4-d757-41ca-966c-f820c32467fd")
-		)
-		(pin "14"
-			(uuid "8c9aa38c-5806-4a43-9f7d-3eecaffc1f94")
-		)
-		(pin "48"
-			(uuid "870032bc-6143-4e06-af7a-a9dcd3de4b46")
-		)
-		(pin "11"
-			(uuid "cd633a4a-29e0-45e6-9a7f-f61495fe6aa5")
-		)
-		(pin "13"
-			(uuid "6ee5a55a-167f-4261-b353-418c20e717d0")
-		)
-		(pin "27"
-			(uuid "b1e28040-0ce7-43aa-98e0-bc9a2fc61685")
-		)
-		(pin "9"
-			(uuid "41e03a00-0482-4407-b924-1a0756254e8f")
-		)
-		(pin "37"
-			(uuid "b3e335e4-981a-4f6d-9118-5672599a866d")
-		)
-		(pin "3"
-			(uuid "412a0064-0bcd-41a8-8d21-f62733646634")
-		)
-		(pin "41"
-			(uuid "2b229a36-3901-42da-81a7-2f60cab6682b")
-		)
-		(pin "51"
-			(uuid "fed5e174-ac6f-4cc8-b067-8d4266eb35eb")
-		)
-		(pin "30"
-			(uuid "b5758fa3-4029-4ca0-bf41-e4d86ba3cd38")
-		)
-		(pin "8"
-			(uuid "befa6b46-8715-402f-ade4-bb74172b28db")
-		)
-		(pin "33"
-			(uuid "323af229-93a5-4d43-891a-bab274e0e99e")
-		)
-		(pin "10"
-			(uuid "10d36ba7-fb4d-4303-8769-a8c7e08fb6b0")
-		)
-		(pin "19"
-			(uuid "715664b6-2484-4d4d-9048-1e59ae15b8e3")
-		)
-		(pin "45"
-			(uuid "6cc7fc79-c25e-41b0-83c3-f8a172e78018")
-		)
-		(pin "6"
-			(uuid "01acac61-aa80-4ec9-8565-c8ac5509cc28")
-		)
-		(pin "46"
-			(uuid "252e5c70-0ed9-4b13-9c5d-bd1b8016fd59")
-		)
-		(pin "32"
-			(uuid "359f5850-cf54-434e-9689-72fa75cf8607")
-		)
-		(pin "49"
-			(uuid "a27f4ccc-b089-43b4-ae4c-47a2a78f4abf")
-		)
-		(pin "26"
-			(uuid "68d6afb9-e56a-4a2f-8fa2-9d82c2190380")
-		)
-		(pin "21"
-			(uuid "f50d8c72-9262-481d-bca5-303e93e317f2")
-		)
-		(pin "47"
-			(uuid "eff40c5b-e713-43d3-893c-53ceb2c40a71")
-		)
-		(pin "39"
-			(uuid "8f3e7a1e-b15d-4580-8218-6d790dab5276")
-		)
-		(pin "35"
-			(uuid "87961463-3986-406e-876d-717b3426cbe6")
-		)
-		(pin "7"
-			(uuid "0ad0e6ca-c1ff-48e6-951a-39f4480db37b")
-		)
-		(pin "20"
-			(uuid "a8764032-3679-45cc-8f1e-7f8cfec276d5")
-		)
-		(pin "54"
-			(uuid "5282d301-bfa6-4f19-9158-3b4d7fb329a6")
-		)
-		(pin "1"
-			(uuid "49c73c1b-9ae3-49fc-884f-11ed488b52db")
-		)
-		(pin "2"
-			(uuid "74f20195-bf3e-4594-a3f5-751a72a29fba")
-		)
-		(pin "16"
-			(uuid "2db6680b-624d-4263-81b6-fe1770b00b80")
-		)
-		(pin "5"
-			(uuid "1501da46-285b-455a-9d9d-156f7e84f24f")
-		)
-		(pin "34"
-			(uuid "370d9725-bbd2-4d7d-a36d-ef329a5628c6")
-		)
-		(pin "25"
-			(uuid "2d0eb7a9-4e0d-48a8-b791-6b4e40b0aa53")
-		)
-		(pin "24"
-			(uuid "d1795e8b-af58-4599-ac4f-40d4a40feb4c")
-		)
-		(pin "57"
-			(uuid "1d7967f3-a2a7-4031-b9ca-e7b7a54d36e8")
-		)
-		(pin "43"
-			(uuid "61ecf322-42c1-4dbf-9564-e65efa1bf174")
-		)
-		(pin "4"
-			(uuid "ef98c86e-48ac-41e1-8dc2-33b61dd9b027")
-		)
-		(pin "17"
-			(uuid "dd873787-6903-4635-afef-caae876b0279")
-		)
-		(instances
-			(project ""
-				(path "/13844229-b559-4868-a710-53f590233cb2/030c395f-3b78-4d13-857e-3ac1af28dc90"
-					(reference "U4")
-					(unit 1)
-				)
-				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9111,6 +8552,241 @@
 			(project ""
 				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "libs:RP2040")
+		(at 87.63 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecc5b211-79f5-4219-b6bb-85bb367bef34")
+		(property "Reference" "U1"
+			(at 89.7733 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RP2040"
+			(at 89.7733 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
+			(at 19.812 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
+			(at 21.082 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "A microcontroller by Raspberry Pi"
+			(at 5.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "35"
+			(uuid "665e2fe5-4ebe-429c-b859-02a41719d1bc")
+		)
+		(pin "7"
+			(uuid "da08dab1-839f-416f-954a-7bf8487888c8")
+		)
+		(pin "27"
+			(uuid "7dff6047-eaa1-46b2-9037-6b9442f4771c")
+		)
+		(pin "38"
+			(uuid "3c371e87-0656-4d52-b087-bc8368885270")
+		)
+		(pin "26"
+			(uuid "68d55db5-ac50-4532-a0b7-7f76714d1386")
+		)
+		(pin "44"
+			(uuid "e148e46a-110e-4dc4-b7d5-547cf09c9dbb")
+		)
+		(pin "39"
+			(uuid "3414b309-fed2-43d2-8eb0-e74adc04a99b")
+		)
+		(pin "36"
+			(uuid "01f8ff31-3940-4caf-bc95-40916ffd5524")
+		)
+		(pin "20"
+			(uuid "eb3ef2bf-ff3b-4b74-8407-f3e682a4ecde")
+		)
+		(pin "28"
+			(uuid "3d73def1-df38-4648-9662-7e5e55c51980")
+		)
+		(pin "47"
+			(uuid "bc2132e8-fd73-475d-b6a0-7e74fa23d26c")
+		)
+		(pin "48"
+			(uuid "107f4b41-ac59-45a2-827a-7eeef429fc2f")
+		)
+		(pin "32"
+			(uuid "84dfa5ae-f5d5-47c7-80a8-88f7b1d24622")
+		)
+		(pin "30"
+			(uuid "a1698291-cf09-4818-9795-727a01c3b676")
+		)
+		(pin "17"
+			(uuid "956551b2-04be-44b4-b9d2-b4840c6909d4")
+		)
+		(pin "5"
+			(uuid "0013c506-81a5-411e-8281-4c1407229f4c")
+		)
+		(pin "24"
+			(uuid "fef2b280-d63a-4747-8648-4abfb6617275")
+		)
+		(pin "45"
+			(uuid "e1580928-162a-4b5d-89ef-356580aff7a1")
+		)
+		(pin "14"
+			(uuid "57b22dee-9bbe-4c24-a3ab-bfd4b7d72308")
+		)
+		(pin "9"
+			(uuid "739625fe-73b1-4fe3-b956-97f269b439fe")
+		)
+		(pin "42"
+			(uuid "bb372765-24e9-4561-8f59-b58dbfe6431d")
+		)
+		(pin "21"
+			(uuid "16e44a12-0954-4faf-84b8-106a2e3d1078")
+		)
+		(pin "2"
+			(uuid "aaead14c-140d-4f68-9b67-79143a21950f")
+		)
+		(pin "8"
+			(uuid "a9fb279c-0d08-4ea2-90e2-79ca12d833bc")
+		)
+		(pin "40"
+			(uuid "cd3f0d84-bfe1-4b4f-a69c-891b5fac6d78")
+		)
+		(pin "50"
+			(uuid "efe7fdb1-0fa9-4581-8064-115583e359ab")
+		)
+		(pin "51"
+			(uuid "71f29608-e9aa-42d9-b830-cb89a229e68a")
+		)
+		(pin "15"
+			(uuid "488556e1-5664-488a-979b-5b03cda67fde")
+		)
+		(pin "1"
+			(uuid "a9be8010-be6c-410e-990a-4b021d55b304")
+		)
+		(pin "31"
+			(uuid "5d062ee5-3be7-458d-8279-db2803e7ddf7")
+		)
+		(pin "25"
+			(uuid "7c55e7b7-c033-42da-85a6-a089593b48b0")
+		)
+		(pin "49"
+			(uuid "db54dd4e-1f77-4b10-adff-2eb2d2e6c7ac")
+		)
+		(pin "43"
+			(uuid "f3f151fd-df6a-473b-9059-a2ad398ced5d")
+		)
+		(pin "54"
+			(uuid "33fcd62f-8ad6-401c-a96a-7b10f6636d9f")
+		)
+		(pin "46"
+			(uuid "54db1797-89ea-41b5-95d8-75345702b8f2")
+		)
+		(pin "55"
+			(uuid "12da2955-7b73-4369-975d-9b60bc534d97")
+		)
+		(pin "18"
+			(uuid "84fafe64-8b6c-4db3-b16c-881e6888b672")
+		)
+		(pin "52"
+			(uuid "8f8044b6-4646-4a53-9f85-177faf5b69c0")
+		)
+		(pin "12"
+			(uuid "7f1d87d1-35c2-4d6e-97c2-fceecc1a818f")
+		)
+		(pin "53"
+			(uuid "cc155e74-b7ea-4e02-a5ea-b5896cf20ada")
+		)
+		(pin "19"
+			(uuid "c8bb765d-5cf5-44ba-877e-dec3e3c3638b")
+		)
+		(pin "34"
+			(uuid "cfcb4c45-afeb-4379-ba55-4f21e474d07c")
+		)
+		(pin "3"
+			(uuid "4c3b67c9-e5e2-4615-a25c-eaac7da45d95")
+		)
+		(pin "23"
+			(uuid "36db9df5-23d6-48fc-be65-6a7e21530bfa")
+		)
+		(pin "56"
+			(uuid "65c1ac74-5e88-4ea0-9453-378c25068fd2")
+		)
+		(pin "37"
+			(uuid "2f69bdc2-0281-4da0-bbaf-2498714dce7b")
+		)
+		(pin "33"
+			(uuid "84986498-9c78-4c15-806b-92316c57b55a")
+		)
+		(pin "4"
+			(uuid "23049af6-5b3a-4321-9a3d-2805f0c44584")
+		)
+		(pin "16"
+			(uuid "d196b06a-4a07-433e-930c-91fa3a151c82")
+		)
+		(pin "22"
+			(uuid "1508f1a0-3f08-45f9-9300-1762dd3f5a68")
+		)
+		(pin "41"
+			(uuid "5ef7bbeb-1041-417f-bba2-d400a93af627")
+		)
+		(pin "13"
+			(uuid "9f25e980-1a61-44fe-9cea-f8327ec6c7d1")
+		)
+		(pin "11"
+			(uuid "7d3e0e44-3402-4141-a9df-2fb95f9d6625")
+		)
+		(pin "6"
+			(uuid "c6968f11-57a6-4a93-922d-5871ad00e046")
+		)
+		(pin "10"
+			(uuid "39bfa87d-69bc-41c8-8847-5257e022f24d")
+		)
+		(pin "29"
+			(uuid "7e096101-1c47-411b-8111-6d47fa771b13")
+		)
+		(pin "57"
+			(uuid "d0a23b94-6ea8-4035-8285-f4b1de72bb29")
+		)
+		(instances
+			(project ""
+				(path "/13844229-b559-4868-a710-53f590233cb2/995b0e09-2caa-42c1-89e8-61a13534fe57"
+					(reference "U1")
 					(unit 1)
 				)
 			)

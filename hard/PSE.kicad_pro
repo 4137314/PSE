@@ -239,7 +239,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|850900|1168400|2927e2e4-0840-48b4-93fc-ac0a814e26fc|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -549,7 +554,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB_POWER",
+        "pattern": "/power/D*"
+      },
+      {
+        "netclass": "3V3",
+        "pattern": "+3V3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
