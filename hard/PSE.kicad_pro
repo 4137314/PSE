@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.58,
+          "width": 0.72
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -239,16 +239,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|342900|749300|996b37a3-1034-4732-b6cf-5dfe986b45d2|9a46c68f-8c7f-4f77-9400-3661e222b180|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b",
-        ""
-      ],
-      [
-        "power_pin_not_driven|584200|723900|2b1e617b-53ab-4676-b899-4b68d3504a4a|00000000-0000-0000-0000-000000000000|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b|/13844229-b559-4868-a710-53f590233cb2/ca9a428d-b29f-459a-8b79-10121d41243b|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -557,20 +548,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "+3V3": [
-        "3V3"
-      ],
-      "+5V": [
-        "5V"
-      ],
-      "/power/VBUS": [
-        "VBUS"
-      ],
-      "/power/mini_usb/VBUS": [
-        "TP501"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -578,7 +556,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "",
+      "plot": "/home/main/tmp/test1/",
       "pos_files": "",
       "specctra_dsn": "PSE.dsn",
       "step": "",
