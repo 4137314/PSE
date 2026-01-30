@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "88716a9d-889c-4024-af1f-2631f7aa2bb9")
 	(paper "A4")
+	(title_block
+		(title "Sensoristica ed Espansioni")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names

@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "0e948bcc-2e16-4367-8b34-9527ac43a7d2")
 	(paper "A4")
+	(title_block
+		(title "Interfaccia Utente")
+	)
 	(lib_symbols
 		(symbol "Device:Buzzer"
 			(pin_names
@@ -3352,7 +3355,7 @@
 		(dnp no)
 		(uuid "263b9047-67d4-4c93-90e2-abb477630b40")
 		(property "Reference" "U4"
-			(at 215.138 20.32 0)
+			(at 218.948 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3364,7 @@
 			)
 		)
 		(property "Value" "oled_0.96\"_128x64px"
-			(at 212.852 22.86 0)
+			(at 209.804 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)

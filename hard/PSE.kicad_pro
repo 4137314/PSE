@@ -556,12 +556,24 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB_POWER",
-        "pattern": "/power/D*"
+        "netclass": "3V3",
+        "pattern": "+3*"
       },
       {
-        "netclass": "3V3",
-        "pattern": "+3V3"
+        "netclass": "USB_POWER",
+        "pattern": "*VBUS"
+      },
+      {
+        "netclass": "BUCK",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "BUCK",
+        "pattern": "*VIN"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "*5V"
       }
     ]
   },
