@@ -783,7 +783,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5G"
+		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -803,7 +803,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5G"
+			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
 				(effects
 					(font
@@ -820,7 +820,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(property "Datasheet" "~"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -829,7 +829,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -847,16 +847,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5G_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -906,7 +897,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -924,28 +915,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "A"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -953,25 +923,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2692,7 +2643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
+		(lib_id "Switch:SW_Push")
 		(at 53.34 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2728,7 +2679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+		(property "Datasheet" "~"
 			(at 58.42 87.63 0)
 			(effects
 				(font
@@ -2737,7 +2688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 53.34 87.63 0)
 			(effects
 				(font
@@ -2748,12 +2699,6 @@
 		)
 		(pin "2"
 			(uuid "d7645865-829a-4067-9b62-5624f1e9080f")
-		)
-		(pin "4"
-			(uuid "316bb3ba-724f-4917-b113-932e194d5003")
-		)
-		(pin "3"
-			(uuid "eeab6ea8-a1ba-41bc-b490-d3ff921c96ad")
 		)
 		(pin "1"
 			(uuid "8cf374a4-4402-4964-baa5-3ca28b57547b")
@@ -2768,7 +2713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
+		(lib_id "Switch:SW_Push")
 		(at 101.6 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2804,7 +2749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+		(property "Datasheet" "~"
 			(at 106.68 87.63 0)
 			(effects
 				(font
@@ -2813,7 +2758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -2824,12 +2769,6 @@
 		)
 		(pin "2"
 			(uuid "b55be41d-2b3d-4762-8e45-89fda4265c30")
-		)
-		(pin "4"
-			(uuid "0186f0b5-a17e-460c-96f1-d5269b64a7e7")
-		)
-		(pin "3"
-			(uuid "292f1014-5555-4ad5-821f-bba31d59f6af")
 		)
 		(pin "1"
 			(uuid "6cf0fa06-efc4-4966-a030-9795a0cdbb77")
@@ -3751,7 +3690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
+		(lib_id "Switch:SW_Push")
 		(at 48.26 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3787,7 +3726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+		(property "Datasheet" "~"
 			(at 53.34 41.91 0)
 			(effects
 				(font
@@ -3796,7 +3735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -3807,12 +3746,6 @@
 		)
 		(pin "2"
 			(uuid "e149117e-3479-41a2-8a35-2384cd5a021c")
-		)
-		(pin "4"
-			(uuid "61281c12-702d-4501-b7f7-2acf384ab411")
-		)
-		(pin "3"
-			(uuid "d8bb07c5-2c10-4c7c-b93a-d48a9558099f")
 		)
 		(pin "1"
 			(uuid "f866a7a8-0616-4696-92c6-ef23b46b5584")
@@ -4498,7 +4431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
+		(lib_id "Switch:SW_Push")
 		(at 96.52 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4534,7 +4467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+		(property "Datasheet" "~"
 			(at 101.6 41.91 0)
 			(effects
 				(font
@@ -4543,7 +4476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 96.52 41.91 0)
 			(effects
 				(font
@@ -4554,12 +4487,6 @@
 		)
 		(pin "2"
 			(uuid "afbe28ed-4c0c-40a9-b911-9689bbfd61ad")
-		)
-		(pin "4"
-			(uuid "2b5a49d1-45bb-48a4-9499-38b49f1a2d8a")
-		)
-		(pin "3"
-			(uuid "e6393bc8-8517-495a-baee-c130529a0cac")
 		)
 		(pin "1"
 			(uuid "80bd8aa9-c16a-4ab8-b61b-7e30555ec3cf")
