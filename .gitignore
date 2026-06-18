@@ -71,3 +71,7 @@ build/
 out/
 output/
 
+hard/.history/
+hard/PSE-backups/
+*.lck
+*.bak

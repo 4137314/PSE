@@ -2737,7 +2737,7 @@
 		(end 142.24 69.85)
 		(stroke
 			(width 0)
-			(type dot)
+			(type dash)
 		)
 		(fill
 			(type none)
